@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Cabecera{
+    height: auto;
+    background-color: aquamarine;
+    
+}
+#Cabecera h3{
+    text-align: center;
+    color: greenyellow;
+}
+.menu a {
+    color: #cbbb0e;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.menu a:hover{
+    height: auto;
+    background-color: #ffff00;
+    color: #000;
+}
+
+.marquesina{
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    height: 20px;
+}
+.logo{
+    text-align: left;
+    width: 40px;
+}
+.carrito{
+    text-align: end;
+    width: 40px;
+}
+#Cuerpo{
+    background-color: #e4e3e3;
+    height: auto;
+    width: 100%;
+
+}
+#regristo{
+    margin-top: 5em;
+    margin-left: 400px;
+    margin-right: 600px;
+    margin-bottom: 2em;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url("/EXplicacionCSS/img/fondo_v.jpg");
+}
+.comentario{
+    background: #008000;
+    color: #fff;
+}
+.opiniones{
+    font-size: small;
+}
+ul{
+    list-style-type:circle;
+}
+li{
+    list-style-type: circle;
+}
+.lista{
+    width: 100%;
+}
+
+
+#tarjeta1{
+    position: static;
+    float: left;
+    width: 300px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta1 img{
+    
+    width: 300px;
+    border-radius: 5px;
+}
+#tarjeta1:hover{
+    background-color: darkorange;
+}
+#contenedor{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+#contenedor h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+#tarjeta1 a {
+    text-decoration: none;
+    color: #fff;
+}
+#tarjeta1 p {
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+#tarjeta2{
+    position: static;
+    float: right;
+    width: 300px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta2 p {
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+#tarjeta2 img{
+    width: 300px;
+    border-radius: 5px;
+}
+#tarjeta2:hover{
+    background-color: darkorange;
+}
+#tarjeta3{
+    float: center;
+    width: 300px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta3 p {
+    position: static;
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+}
+#tarjeta3 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+#tarjeta3:hover{
+    background-color: darkorange;
+}
+.verde{
+    color: #008000;
+}
+.texto{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: #000;
+}
+.titulo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}

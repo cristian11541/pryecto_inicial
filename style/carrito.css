@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+#Cabecera{
+    height: auto;
+    background-color: aquamarine;
+    
+}
+#Cabecera h3{
+    text-align: center;
+    color: greenyellow;
+}
+.menu a {
+    color: #cbbb0e;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.menu a:hover{
+    height: auto;
+    background-color: #ffff00;
+    color: #000;
+}
+
+.marquesina{
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    height: 20px;
+}
+.logo{
+    text-align: left;
+    width: 40px;
+}
+.carrito{
+    text-align: end;
+    width: 40px;
+}
+#Cuerpo{
+    background-color: #e6e6dc;
+    height: 30em;
+    width: 100%;
+
+}
+.comentario{
+    background: #008000;
+    color: #fff;
+}
+.opiniones{
+    font-size: small;
+}
+ul{
+    list-style-type:circle;
+}
+li{
+    list-style-type: circle;
+}
+.lista{
+    width: 100%;
+}
+#carrito{
+    margin-left: 40em;
+    margin-right: 5em;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    background-color: #e6e6dc;
+}
+.logo{
+    width: 7em;
+    height: auto;
+}
+.numero{
+    width: 3em;
+}
+#menulateral{
+    background: #e6e6dc;
+    height: auto;
+    width: 25%;
+    position: relative;
+    float: left;
+
+}
+.boton{
+    background-color: #00ff0d;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 5px;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 3em;
+   
+}
+.boton img{
+    padding: 5px;
+}
+.boton:hover{
+    background-color: #0e7407;
+}
+.pago{
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 5px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 3em;
+   
+}
+.pago img{
+    padding: 5px;
+}
+.pago:hover{
+    background-color: darkorange;
+}
+
+.select{
+    background-color: #a2a8a2;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 5px;
+    border-radius: 5px;
+    
+    margin-bottom: 3em;
+   
+}
+.select img{
+    padding: 5px;
+}
+.select:hover{
+    background-color: #525351;
+}
+.opcional{
+    color: #7c7c7d;
+}
+#contacto{
+    margin-left: 40em;
+    margin-right: 5em;
+    
+    margin-bottom: 6em;
+    background-color: #e6e6dc;
+}
+.enviar{
+    background-color: #00ff0d;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 5px;
+    border-radius: 5px;
+    
+    margin-bottom: 3em;
+   
+}
+.enviar img{
+    padding: 5px;
+}
+.enviar:hover{
+    background-color: #0e7407;
+}

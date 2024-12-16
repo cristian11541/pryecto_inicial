@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Cabecera{
+    height: auto;
+    background-color: aquamarine;
+    
+}
+#Cabecera h3{
+    text-align: center;
+    color: greenyellow;
+}
+.menu a {
+    color: #cbbb0e;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.menu a:hover{
+    height: auto;
+    background-color: #ffff00;
+    color: #000;
+}
+
+.marquesina{
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    height: 20px;
+}
+.logo{
+    text-align: left;
+    width: 40px;
+}
+.carrito{
+    text-align: end;
+    width: 40px;
+}
+#Cuerpo{
+    background-color: #1b1919;
+    height: auto;
+    width: 100%;
+
+}
+#regristo{
+    margin-top: 5em;
+    margin-left: 400px;
+    margin-right: 600px;
+    margin-bottom: 2em;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url("/EXplicacionCSS/img/fondo_v.jpg");
+}
+.comentario{
+    background: #008000;
+    color: #fff;
+}
+.opiniones{
+    font-size: small;
+}
+ul{
+    list-style-type:circle;
+}
+li{
+    list-style-type: circle;
+}
+.lista{
+    width: 100%;
+}
+
+
+#tarjeta1{
+    position: static;
+    float: left;
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta1 img{
+    width: 200px;
+}
+#tarjeta1:hover{
+    background-color: darkorange;
+}
+#contenedor{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+#contenedor h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+#tarjeta1 a {
+    text-decoration: none;
+    color: #fff;
+}
+#tarjeta1 p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+
+
+}
+#tarjeta2{
+    position: static;
+    float: right;
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta2 p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+
+
+}
+#tarjeta2 img{
+    width: 200px;
+}
+#tarjeta2:hover{
+    background-color: darkorange;
+}
+#tarjeta3{
+    float: center;
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta3 p {
+    position: static;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+#tarjeta3 img{
+    width: 200px;
+}
+#tarjeta3:hover{
+    background-color: darkorange;
+}
+#tarjeta4{
+    position: relative;
+    float: left;
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta4 p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+
+    color: #fff;
+}
+#tarjeta4 img{
+    width: 200px;
+}
+#tarjeta4:hover{
+    background-color: darkorange;
+}
+#tarjeta4 a {
+    text-decoration: none;
+    color: #000;
+}
+#tarjeta5{
+    position: relative;
+    float: right;
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta5 p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+#tarjeta5 img{
+    width: 200px;
+}
+#tarjeta5:hover{
+    background-color: darkorange;
+}
+#tarjeta6{
+    position: relative;
+    float: center;
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 #000;
+}
+#tarjeta6 p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    
+
+}
+#tarjeta6 img{
+    width: 200px;
+}
+#tarjeta6:hover{
+    background-color: darkorange;
+}

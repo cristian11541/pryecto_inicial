@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+         <meta charset="UTF-8" /> 
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Formularios</title>
+    </head>
+    <body>
+        <h2>FORMULARIOS</h2>
+
+        <div method="POST" action="xonaprivada.html">
+            <label for="labelNombre">Nombre</label><br/>
+            <input type="text" /><br/>
+            <br/>
+
+            <label for="labelApellidos">Apellidos</label><br/>
+            <input type="text" /><br/>
+            <br/>
+            <label for="labelUsuario">Nombre de usuario</label><br/>
+            <input type="text" /><br/>
+            <br/>
+
+            <label for="labelNacimiento">Fecha de Nacimiento</label><br/>
+            <input type="date" /><br/>
+            <br/>
+            
+            <label for="email">Introduzca email</label><br/>
+            <input type="email" id="email" /><br/>
+            <br/>
+            
+            <label for="labelContraseña">Contraseña</label><br/>
+            <input type="password" /><br/>
+            <br/>
+
+            <label for="provincia">Seleccione provincia</label><br/>
+            <select id="provincia" size="" required>
+                <option value="" disabled selected></option>
+                <option value="Madrid">Madrid</option>
+                <option value="Cáceres">Cáceres</option>
+                <option value="Badajoz">Badajoz</option>
+            </select><br/>
+            <br/>
+
+            <textarea id="comentario" name="comentario" rows="5" cols="50" placeholder="Escriba su comentario"></textarea><br/>
+            <br/>
+            <a href="xonaprivada.html"><input type="submit" value="Enviar"/></a>
+        </div>
+    </body>
+</html>
